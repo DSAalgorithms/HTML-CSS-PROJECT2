@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghav's fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+    <link rel="icon" href="dumbell-g1444b6c2c_640.jpg">
+    <style>
+        body {
+            font-family: 'Baloo Bhai', 'cursive';
+            margin: 0px;
+            padding: 0px;
+            background: url(dumbbell-gf909c9b2c_1920.jpg);
+
+        }
+        .home{
+            /* height: 100vh; */
+            position:relative;
+        }
+
+        .left img {
+            width: 90px;
+            /* filter: invert(150%); */
+            border-radius: 550px;
+            margin-left: 15px;
+        }
+
+        .left div {
+            text-align: center;
+            font-size: medium;
+        }
+
+        .left {
+            color: white;
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .center {
+            color: white;
+            display: block;
+            width: 37%;
+            margin: 20px auto;
+            /* border: 2px solid white; */
+        }
+
+        .right {
+            position: absolute;
+            right: 14px;
+            top: 20px;
+            color: white;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+            ;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 19px;
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 15px 14px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', 'cursive';
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 11px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: gray;
+
+        }
+
+        .container {
+            color: white;
+            border: 2px solid white;
+            margin: 75px 75px;
+            padding: 65px;
+            width: 45%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', 'cursive';
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 7px auto;
+            font-size: 19px;
+            border-radius: 11px;
+            ;
+        }
+
+        .container h1 h2 {
+            text-align: center;
+
+        }
+        .container button{
+            display: block;
+            width:400px;
+            margin:auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="dumbell-g1444b6c2c_640.jpg" alt="">
+            <div>Raghav's Fitness</div>
+        </div>
+        <div class="center">
+            <!-- mid box for nav bar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Fitness center </a></li>
+                <li><a href="#">Contact us </a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for buttons -->
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the chepest GYM of Vrindavan now</h1>
+        <h2>Fill up the form to get admission now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Email-ID">
+            </div>
+            <button class="btn">
+                SUBMIT
+            </button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
